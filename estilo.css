@@ -64,3 +64,66 @@ main{
     background-image: url(./peces.jpg);
     background-size: 940px 300px;
 }
+
+.caja{
+    width: 940px;
+}
+.cajaizquierda{
+    width: 240px;
+    float:left;
+    margin: 0px;
+    padding: 0px 30px 30px 0px;
+    line-height: 35px;
+}
+
+.tituloizquierda{
+    color: #7eba25;
+    margin-top: 20px;
+}
+
+.cajaderecha{
+    width: 640px;
+    float: right;
+}
+
+.post{
+    margin: 0px 0px 30px 0px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+}
+
+.subtitulo{
+    padding: 4px 35px 4px 15px;
+    background: #000000;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-right: 395px;
+}
+
+.parrafo{
+    padding: 20px 0px;
+}
+
+.comentarios{
+    color: #7eba25;
+    float: right;
+    text-decoration: underline;
+}
+
+footer{
+    margin: o auto;
+    padding: 20px 0px;
+    background: #000000;
+    color: #686767;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.parrafo .comentarios{
+    margin: 20px;
+}
+
+
+
