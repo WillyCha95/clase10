@@ -73,7 +73,7 @@ main{
     float:left;
     margin: 0px;
     padding: 0px 30px 30px 0px;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .tituloizquierda{
@@ -105,10 +105,16 @@ main{
     padding: 20px 0px;
 }
 
-.comentarios{
+.parrafo a{
     color: #7eba25;
     float: right;
     text-decoration: underline;
+    margin: 20px;
+}
+
+.parrafo a :hover a :active{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 footer{
@@ -121,9 +127,6 @@ footer{
     width: 100%;
 }
 
-.parrafo .comentarios{
-    margin: 20px;
-}
 
 
 
