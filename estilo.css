@@ -4,7 +4,7 @@
 }
 
 .cabecera{
-    margin: o auto;
+    margin: 0 auto;
     width: 1000px;
 }
 
@@ -67,7 +67,10 @@ main{
 
 .caja{
     width: 940px;
+    margin: 0 auto;
+    position: relative;
 }
+
 .cajaizquierda{
     width: 240px;
     float:left;
@@ -112,9 +115,8 @@ main{
     margin: 20px;
 }
 
-.parrafo a :hover a :active{
+:hover a{
     text-decoration: none;
-    cursor: pointer;
 }
 
 footer{
@@ -127,6 +129,9 @@ footer{
     width: 100%;
 }
 
-
+limpiar{
+    clear: both;
+    margin: 0 auto;
+}
 
 
